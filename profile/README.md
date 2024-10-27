@@ -13,12 +13,12 @@
 
 OvO is maintained in two [monorepos](https://monorepo.tools):
 
-- `ovo` - OvO Runtime & Toolchain [github.com/ovojs/ovo](https://github.com/ovojs/ovo)
-  - `ovo`      - All-in-one CLI     (Rust) 
-  - `ovo-core` - JavaScript runtime (QuickJS + Rust)
-  - `ovo-qdb`  - Debugger           (QuickJS debugger + Rust)
-  - `ovo-lsp`  - Language server    (Rust)
-  - `ovo-gui`  - Cross-platform GUI framework  (LVGL + Rust)
+- `ovo` - OvO JavaScript Runtime & Toolchain [github.com/ovojs/ovo](https://github.com/ovojs/ovo)
+  - `ovo`      - All-in-one CLI
+  - `ovo-qjs`  - QuickJS Rust bindings
+  - `ovo-qdb`  - QuickJS Debugger
+  - `ovo-lsp`  - Language server
+  - `ovo-gui`  - Cross-platform GUI framework
  
 - `platform` - OvO Platform [github.com/ovojs/platform](https://github.com/ovojs/platform)
   - `api`  - API server     - [api.ovojs.com](https://api.ovojs.com)
